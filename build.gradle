@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '4.0.4'
+}
+
+mainClassName = 'io.github.axissnova.sixa.Sixa'
+
+group 'io.github.axissnova'
+version '1.0'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:4.2.0_184'
+}
+
+compileJava.options.encoding = 'UTF-8'
