@@ -1,0 +1,7 @@
+# gradle shit
+.gradle
+build
+settings.gradle
+
+# intellij user
+.idea
